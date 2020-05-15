@@ -1,4 +1,236 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #1a0000;
+}
+h1 {
+  font-family: 'Ralewway', sans-serif;
+  color: white;
+  font-size: 5rem;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Ralewway', sans-serif;
+  color: #1a0000;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+body {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+nav a {
+  text-decoration: none;
+  font-size: 2.6rem;
+  color: #110e05;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  padding: 3%;
+}
+nav a:nth-child(1) {
+  font-weight: bolder;
+}
+nav a:nth-child(2) {
+  border-left: 1px solid #1a0000;
+  border-right: 1px solid #1a0000;
+  padding: 3%;
+}
+nav img {
+  margin-top: 2%;
+  width: 80%;
+}
+nav .main-button {
+  width: 50%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin-left: 25%;
+}
+@media (max-width: 500px) {
+  nav .main-button {
+    font-size: 1.4rem;
+  }
+}
+nav .home-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-picture {
+  position: relative;
+  text-align: center;
+}
+.header-picture .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.artists-container {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  .artists-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+}
+.artists-container a {
+  display: flex;
+  flex-direction: wrap;
+  text-decoration: none;
+  color: #110e05;
+  align-items: center;
+  justify-content: center;
+}
+.artists-container a h2 {
+  margin-right: 30%;
+}
+.artists-container a h3 {
+  font-size: 1.8rem;
+  margin-right: 20%;
+}
+.artists-container .bio {
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+}
+div.artist1 {
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+@media (max-width: 500px) {
+  div.artist1 {
+    width: 75%;
+  }
+}
+div.artist1 img {
+  width: 75%;
+  border-radius: 10px;
+  margin: 5% 0;
+}
+@media (max-width: 500px) {
+  div.artist1 img {
+    width: 100%;
+  }
+}
+.bio {
+  font-size: 1.2rem;
+  color: #1a0000;
+}
