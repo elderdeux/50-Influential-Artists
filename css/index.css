@@ -209,7 +209,13 @@ nav .home-nav {
   align-items: center;
   justify-content: center;
 }
-.artist1 img {
+div.artist1 {
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+div.artist1 img {
   width: 75%;
   border-radius: 10px;
   margin: 5% 0;
