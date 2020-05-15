@@ -215,10 +215,20 @@ div.artist1 {
   justify-content: center;
   width: 50%;
 }
+@media (max-width: 500px) {
+  div.artist1 {
+    width: 75%;
+  }
+}
 div.artist1 img {
   width: 75%;
   border-radius: 10px;
   margin: 5% 0;
+}
+@media (max-width: 500px) {
+  div.artist1 img {
+    width: 100%;
+  }
 }
 .bio {
   font-size: 1.2rem;
